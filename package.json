@@ -1,0 +1,16 @@
+{
+  "name": "quiz-maker-tutorial",
+  "version": "1.0.0",
+  "description": "A step by step guide to building quiz-maker with React and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "Full-stack"
+  ],
+  "author": "Omer",
+  "license": "MIT"
+}
