@@ -1,5 +1,5 @@
 <h1>Quiz Maker Tutorial</h1>
-<h2>Tutorial-02 - Installing and running</h2>
+<h2>Tutorial-02 - Installing and running the server</h2>
 In this tutorial we will install <b>Express</b> by adding it to our dependencies in package.json, and run it on port 3001.
 <h3>Objectives</h3>
 <ol>
