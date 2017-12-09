@@ -1,19 +1,26 @@
 <h1>Quiz Maker Tutorial</h1>
-<h2>Tutorial-01 - Initial setup</h2>
-This is a step by step guide to build a full stack web app using React and Express.
+<h2>Tutorial-02 - Installing and running</h2>
+In this tutorial we will install <b>Express</b> by adding it to our dependencies in package.json, and run it on port 3001.
+<h3>Objectives</h3>
 <ol>
+	<li>Install <b>Express</b></li>
+	<li>Make a minimal server and run it</li>
+	<li>Install and use <b>nodemon</b> for development</li>
+</ol>
+
 To follow along upto to this point, do the following:
-<li>Create a new directory</li>
-<li>Open a commond line prompt in the newly created directory</li>
-<li>Initialize a local git repository inside this directory as follows:[ <code>git init</code> ]</li>
-<li>Use the command line to create a "package.json" file by typing [ <code>npm init</code> ] and then optionally enter the information suggested like name, keywords, license, etc.</li>
-<li> Stage and commit your changes to your local repository by doing:
-	<ol>
-		<li>[ <code>git ad .</code> ] to stage your changes</li>
-		<li>[ <code>git commit -m "First commit" </code> ] to commit your changes <i>Note: the commit message after the floag "-m" can be anything you want like <a href="https://blog.no-panic.at/2014/10/20/funny-initial-git-commit-messages/">here</a></i></li>
-	</ol>
-</li>
-<li>
-	You may want to push your changes to GitHub and for this checkout how you can add a new repo in GitHub.
-</li>
+<ol>
+	<li>Open a command line prompt in the directory created in tutorial-01 ( We will call it root directory 	form now on ) </li>.
+	<li>Enter the command [ <code>npm install --save express</code> ].</li>
+	<li>Create a new file in the root directory and name it [ server.js ].</li>
+	<li>Copy the content you see in [server.js] in this repository to your [server.js] file and save.</li>
+	<li>You can now start your <b>Express</b> server by running the command [ <code>node server.js</code> ].</li>
+	<li>For development we recommend using <b>nodemon</b> to start the server since it will watch your files and restart the server when you made changes. Install it globally by running the command [ <code>npm install -g nodemon</code> ] then simply run [ <code>nodemon server.js</code> ]. </li>
+	<li>We would like to stage and commit our changes but we need to exclude the [node_modules] directory since we do not want to add it to our repository. We can do this by adding a .gitignore file to the root directory. Go ahead and create [ .gitignore ] file and copy into it the content you can find <a href="https://github.com/github/gitignore/blob/master/Node.gitignore">here</a></li>
+	<li>Stage and commit 
+		<ol>
+			<li><code>git add .</code></li>
+			<li><code>git commit -m "Install Express and add server file"</code></li>
+		</ol>
+	</li>
 </ol>
